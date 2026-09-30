@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="b8lu2o1Zp00IdJCoW4AB">
-    <mxGraphModel dx="777" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Phân tích" id="b8lu2o1Zp00IdJCoW4AB">
+    <mxGraphModel dx="371" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PmFQvMI5ndDo_p_IOlPL-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Bài 1.1&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Thực thể &lt;/b&gt;:&amp;nbsp;&lt;/div&gt;&lt;div&gt;1. Sinh viên&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Khoá học&amp;nbsp;&lt;/div&gt;&lt;div&gt;3. Giảng Viên&amp;nbsp;&lt;/div&gt;&lt;div&gt;4. Lớp Học Phần&amp;nbsp;&lt;/div&gt;&lt;div&gt;5. Kết quả học tập&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="270" x="310" y="640" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vibS8l5F_y8Ql5t1wtgz" name="Bài 1.1">
+    <mxGraphModel dx="371" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I5UOlXopfyE8ULFL96yc-4" edge="1" parent="1" source="I5UOlXopfyE8ULFL96yc-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="I5UOlXopfyE8ULFL96yc-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5UOlXopfyE8ULFL96yc-1" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Sinh Viên" vertex="1">
+          <mxGeometry height="40" width="100" x="130" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="I5UOlXopfyE8ULFL96yc-7" edge="1" parent="1" source="I5UOlXopfyE8ULFL96yc-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="I5UOlXopfyE8ULFL96yc-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5UOlXopfyE8ULFL96yc-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Name" vertex="1">
+          <mxGeometry height="40" width="100" x="190" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I5UOlXopfyE8ULFL96yc-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="Mã Số Sinh Viên" vertex="1">
+          <mxGeometry height="50" width="120" x="30" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="I5UOlXopfyE8ULFL96yc-10" edge="1" parent="1" source="I5UOlXopfyE8ULFL96yc-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="I5UOlXopfyE8ULFL96yc-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5UOlXopfyE8ULFL96yc-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Ngày Sinh" vertex="1">
+          <mxGeometry height="40" width="100" x="290" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="I5UOlXopfyE8ULFL96yc-13" edge="1" parent="1" source="I5UOlXopfyE8ULFL96yc-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="I5UOlXopfyE8ULFL96yc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5UOlXopfyE8ULFL96yc-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Giới Tính" vertex="1">
+          <mxGeometry height="40" width="100" x="290" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="I5UOlXopfyE8ULFL96yc-14" edge="1" parent="1" source="I5UOlXopfyE8ULFL96yc-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="I5UOlXopfyE8ULFL96yc-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I5UOlXopfyE8ULFL96yc-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Email" vertex="1">
+          <mxGeometry height="40" width="100" x="290" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="I5UOlXopfyE8ULFL96yc-16" edge="1" parent="1" source="I5UOlXopfyE8ULFL96yc-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I5UOlXopfyE8ULFL96yc-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Số Điện Thoại" vertex="1">
+          <mxGeometry height="40" width="100" x="290" y="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
