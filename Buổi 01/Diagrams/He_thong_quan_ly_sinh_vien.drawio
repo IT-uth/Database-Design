@@ -1,275 +1,241 @@
-<?xml version="1.0" encoding="utf-8"?>
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="Phân tích" id="analysis-page">
     <mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="analysis-text" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;verticalAlign=top;" value="&#10;&lt;h1 style=&quot;margin-top:0&quot;&gt;Bài 1.1 — Hệ thống thông tin quản lý sinh viên&lt;/h1&gt;&#10;&lt;div&gt;&lt;b&gt;Thực thể chính:&lt;/b&gt;&lt;/div&gt;&#10;&lt;div&gt;1. Sinh viên&lt;/div&gt;&#10;&lt;div&gt;2. Khóa học&lt;/div&gt;&#10;&lt;div&gt;3. Giảng viên&lt;/div&gt;&#10;&lt;div&gt;4. Lớp học phần&lt;/div&gt;&#10;&lt;div&gt;5. Kết quả học tập&lt;/div&gt;&#10;&lt;br&gt;&#10;&lt;div&gt;&lt;b&gt;Quan hệ:&lt;/b&gt;&lt;/div&gt;&#10;&lt;div&gt;• Sinh viên — Kết quả học tập: 1:N&lt;/div&gt;&#10;&lt;div&gt;• Lớp học phần — Kết quả học tập: 1:N&lt;/div&gt;&#10;&lt;div&gt;• Sinh viên — Lớp học phần: M:N, được giải quyết qua Kết quả học tập&lt;/div&gt;&#10;&lt;div&gt;• Khóa học — Lớp học phần: 1:N&lt;/div&gt;&#10;&lt;div&gt;• Giảng viên — Lớp học phần: 1:N&lt;/div&gt;&#10;&lt;div&gt;• Khóa học — Giảng viên: M:N&lt;/div&gt;&#10;&lt;br&gt;&#10;&lt;div&gt;&lt;b&gt;Khóa chính:&lt;/b&gt;&lt;/div&gt;&#10;&lt;div&gt;• Sinh viên: Mã sinh viên&lt;/div&gt;&#10;&lt;div&gt;• Khóa học: Mã khóa học&lt;/div&gt;&#10;&lt;div&gt;• Giảng viên: Mã giảng viên&lt;/div&gt;&#10;&lt;div&gt;• Lớp học phần: Mã lớp&lt;/div&gt;&#10;&lt;div&gt;• Kết quả học tập: (Mã sinh viên, Mã lớp học phần)&lt;/div&gt;&#10;" vertex="1">
-          <mxGeometry x="80" y="80" width="690" height="700" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="analysis-text" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;verticalAlign=top;" value="&#xa;&lt;h1 style=&quot;margin-top:0&quot;&gt;Bài 1.1 — Hệ thống thông tin quản lý sinh viên&lt;/h1&gt;&#xa;&lt;div&gt;&lt;b&gt;Thực thể chính:&lt;/b&gt;&lt;/div&gt;&#xa;&lt;div&gt;1. Sinh viên&lt;/div&gt;&#xa;&lt;div&gt;2. Khóa học&lt;/div&gt;&#xa;&lt;div&gt;3. Giảng viên&lt;/div&gt;&#xa;&lt;div&gt;4. Lớp học phần&lt;/div&gt;&#xa;&lt;div&gt;5. Kết quả học tập&lt;/div&gt;&#xa;&lt;br&gt;&#xa;&lt;div&gt;&lt;b&gt;Quan hệ:&lt;/b&gt;&lt;/div&gt;&#xa;&lt;div&gt;• Sinh viên — Kết quả học tập: 1:N&lt;/div&gt;&#xa;&lt;div&gt;• Lớp học phần — Kết quả học tập: 1:N&lt;/div&gt;&#xa;&lt;div&gt;• Sinh viên — Lớp học phần: M:N, được giải quyết qua Kết quả học tập&lt;/div&gt;&#xa;&lt;div&gt;• Khóa học — Lớp học phần: 1:N&lt;/div&gt;&#xa;&lt;div&gt;• Giảng viên — Lớp học phần: 1:N&lt;/div&gt;&#xa;&lt;div&gt;• Khóa học — Giảng viên: M:N&lt;/div&gt;&#xa;&lt;br&gt;&#xa;&lt;div&gt;&lt;b&gt;Khóa chính:&lt;/b&gt;&lt;/div&gt;&#xa;&lt;div&gt;• Sinh viên: Mã sinh viên&lt;/div&gt;&#xa;&lt;div&gt;• Khóa học: Mã khóa học&lt;/div&gt;&#xa;&lt;div&gt;• Giảng viên: Mã giảng viên&lt;/div&gt;&#xa;&lt;div&gt;• Lớp học phần: Mã lớp&lt;/div&gt;&#xa;&lt;div&gt;• Kết quả học tập: (Mã sinh viên, Mã lớp học phần)&lt;/div&gt;&#xa;" vertex="1">
+          <mxGeometry x="80" y="80" width="690" height="700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="ERD - Bài 1.1" id="erd-page">
-    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1554" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
         <mxCell id="sv" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;" value="SINH VIÊN" vertex="1">
-          <mxGeometry x="90" y="360" width="130" height="55" as="geometry"/>
+          <mxGeometry height="55" width="130" x="90" y="360" as="geometry" />
         </mxCell>
         <mxCell id="kh" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;" value="KHÓA HỌC" vertex="1">
-          <mxGeometry x="930" y="90" width="130" height="55" as="geometry"/>
+          <mxGeometry height="55" width="130" x="930" y="90" as="geometry" />
         </mxCell>
         <mxCell id="gv" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;" value="GIẢNG VIÊN" vertex="1">
-          <mxGeometry x="930" y="650" width="130" height="55" as="geometry"/>
+          <mxGeometry height="55" width="130" x="930" y="650" as="geometry" />
         </mxCell>
         <mxCell id="lhp" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;" value="LỚP HỌC PHẦN" vertex="1">
-          <mxGeometry x="930" y="360" width="150" height="55" as="geometry"/>
+          <mxGeometry height="55" width="150" x="930" y="360" as="geometry" />
         </mxCell>
         <mxCell id="kq" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;" value="KẾT QUẢ HỌC TẬP" vertex="1">
-          <mxGeometry x="500" y="360" width="170" height="55" as="geometry"/>
+          <mxGeometry height="55" width="170" x="510" y="350" as="geometry" />
         </mxCell>
         <mxCell id="sv_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=4;" value="Mã sinh viên" vertex="1">
-          <mxGeometry x="30" y="220" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="30" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="e_sv_id" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="sv" target="sv_id">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_sv_id" edge="1" parent="1" source="sv" style="endArrow=none;html=1;rounded=0;" target="sv_id">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sv_name" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Họ tên" vertex="1">
-          <mxGeometry x="160" y="220" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="160" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="e_sv_name" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="sv" target="sv_name">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_sv_name" edge="1" parent="1" source="sv" style="endArrow=none;html=1;rounded=0;" target="sv_name">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sv_dob" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Ngày sinh" vertex="1">
-          <mxGeometry x="260" y="270" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="260" y="270" as="geometry" />
         </mxCell>
-        <mxCell id="e_sv_dob" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="sv" target="sv_dob">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_sv_dob" edge="1" parent="1" source="sv" style="endArrow=none;html=1;rounded=0;" target="sv_dob">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sv_gender" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Giới tính" vertex="1">
-          <mxGeometry x="270" y="430" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="270" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="e_sv_gender" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="sv" target="sv_gender">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_sv_gender" edge="1" parent="1" source="sv" style="endArrow=none;html=1;rounded=0;" target="sv_gender">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sv_addr" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Địa chỉ" vertex="1">
-          <mxGeometry x="160" y="510" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="160" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="e_sv_addr" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="sv" target="sv_addr">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_sv_addr" edge="1" parent="1" source="sv" style="endArrow=none;html=1;rounded=0;" target="sv_addr">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sv_email" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Email" vertex="1">
-          <mxGeometry x="30" y="510" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="30" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="e_sv_email" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="sv" target="sv_email">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_sv_email" edge="1" parent="1" source="sv" style="endArrow=none;html=1;rounded=0;" target="sv_email">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sv_phone" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Số điện thoại" vertex="1">
-          <mxGeometry x="10" y="430" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="10" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="e_sv_phone" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="sv" target="sv_phone">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_sv_phone" edge="1" parent="1" source="sv" style="endArrow=none;html=1;rounded=0;" target="sv_phone">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sv_major" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Ngành học" vertex="1">
-          <mxGeometry x="300" y="340" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="300" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="e_sv_major" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="sv" target="sv_major">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_sv_major" edge="1" parent="1" source="sv" style="endArrow=none;html=1;rounded=0;" target="sv_major">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sv_year" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Năm nhập học" vertex="1">
-          <mxGeometry x="285" y="390" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="285" y="390" as="geometry" />
         </mxCell>
-        <mxCell id="e_sv_year" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="sv" target="sv_year">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_sv_year" edge="1" parent="1" source="sv" style="endArrow=none;html=1;rounded=0;" target="sv_year">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sv_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Trạng thái học tập" vertex="1">
-          <mxGeometry x="70" y="570" width="150" height="45" as="geometry"/>
+          <mxGeometry height="45" width="150" x="70" y="570" as="geometry" />
         </mxCell>
-        <mxCell id="e_sv_status" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="sv" target="sv_status">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_sv_status" edge="1" parent="1" source="sv" style="endArrow=none;html=1;rounded=0;" target="sv_status">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kh_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=4;" value="Mã khóa học" vertex="1">
-          <mxGeometry x="840" y="10" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="840" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="e_kh_id" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="kh" target="kh_id">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_kh_id" edge="1" parent="1" source="kh" style="endArrow=none;html=1;rounded=0;" target="kh_id">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kh_name" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Tên khóa học" vertex="1">
-          <mxGeometry x="990" y="10" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="990" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="e_kh_name" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="kh" target="kh_name">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_kh_name" edge="1" parent="1" source="kh" style="endArrow=none;html=1;rounded=0;" target="kh_name">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kh_desc" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Mô tả" vertex="1">
-          <mxGeometry x="1110" y="80" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="1110" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="e_kh_desc" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="kh" target="kh_desc">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_kh_desc" edge="1" parent="1" source="kh" style="endArrow=none;html=1;rounded=0;" target="kh_desc">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kh_cred" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Số tín chỉ" vertex="1">
-          <mxGeometry x="1110" y="140" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="1110" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="e_kh_cred" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="kh" target="kh_cred">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_kh_cred" edge="1" parent="1" source="kh" style="endArrow=none;html=1;rounded=0;" target="kh_cred">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gv_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=4;" value="Mã giảng viên" vertex="1">
-          <mxGeometry x="830" y="750" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="690" y="710" as="geometry" />
         </mxCell>
-        <mxCell id="e_gv_id" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="gv" target="gv_id">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_gv_id" edge="1" parent="1" source="gv" style="endArrow=none;html=1;rounded=0;" target="gv_id">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gv_name" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Họ tên" vertex="1">
-          <mxGeometry x="980" y="750" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="1135" y="775" as="geometry" />
         </mxCell>
-        <mxCell id="e_gv_name" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="gv" target="gv_name">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_gv_name" edge="1" parent="1" source="gv" style="endArrow=none;html=1;rounded=0;" target="gv_name">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gv_spec" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Chuyên ngành" vertex="1">
-          <mxGeometry x="1110" y="700" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="1210" y="705" as="geometry" />
         </mxCell>
-        <mxCell id="e_gv_spec" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="gv" target="gv_spec">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_gv_spec" edge="1" parent="1" source="gv" style="endArrow=none;html=1;rounded=0;" target="gv_spec">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gv_email" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Email" vertex="1">
-          <mxGeometry x="1110" y="760" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="1210" y="555" as="geometry" />
         </mxCell>
-        <mxCell id="e_gv_email" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="gv" target="gv_email">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_gv_email" edge="1" parent="1" source="gv" style="endArrow=none;html=1;rounded=0;" target="gv_email">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gv_phone" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Số điện thoại" vertex="1">
-          <mxGeometry x="980" y="820" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="980" y="820" as="geometry" />
         </mxCell>
-        <mxCell id="e_gv_phone" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="gv" target="gv_phone">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_gv_phone" edge="1" parent="1" source="gv" style="endArrow=none;html=1;rounded=0;" target="gv_phone">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gv_dept" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Bộ môn / Phòng ban" vertex="1">
-          <mxGeometry x="810" y="820" width="135" height="45" as="geometry"/>
+          <mxGeometry height="45" width="135" x="810" y="820" as="geometry" />
         </mxCell>
-        <mxCell id="e_gv_dept" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="gv" target="gv_dept">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_gv_dept" edge="1" parent="1" source="gv" style="endArrow=none;html=1;rounded=0;" target="gv_dept">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lhp_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=4;" value="Mã lớp" vertex="1">
-          <mxGeometry x="860" y="260" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="860" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="e_lhp_id" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="lhp" target="lhp_id">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_lhp_id" edge="1" parent="1" source="lhp" style="endArrow=none;html=1;rounded=0;" target="lhp_id">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lhp_time" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Thời gian học" vertex="1">
-          <mxGeometry x="1040" y="260" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="1040" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="e_lhp_time" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="lhp" target="lhp_time">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_lhp_time" edge="1" parent="1" source="lhp" style="endArrow=none;html=1;rounded=0;" target="lhp_time">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lhp_place" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Địa điểm học" vertex="1">
-          <mxGeometry x="1110" y="330" width="120" height="45" as="geometry"/>
+          <mxGeometry height="45" width="120" x="1110" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="e_lhp_place" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="lhp" target="lhp_place">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_lhp_place" edge="1" parent="1" source="lhp" style="endArrow=none;html=1;rounded=0;" target="lhp_place">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kq_sv" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=4;" value="Mã sinh viên" vertex="1">
-          <mxGeometry x="420" y="250" width="125" height="45" as="geometry"/>
+          <mxGeometry height="45" width="125" x="420" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="e_kq_sv" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="kq" target="kq_sv">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_kq_sv" edge="1" parent="1" source="kq" style="endArrow=none;html=1;rounded=0;" target="kq_sv">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kq_lhp" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=4;" value="Mã lớp học phần" vertex="1">
-          <mxGeometry x="560" y="250" width="125" height="45" as="geometry"/>
+          <mxGeometry height="45" width="125" x="560" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="e_kq_lhp" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="kq" target="kq_lhp">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_kq_lhp" edge="1" parent="1" source="kq" style="endArrow=none;html=1;rounded=0;" target="kq_lhp">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kq_score" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Điểm số" vertex="1">
-          <mxGeometry x="450" y="480" width="125" height="45" as="geometry"/>
+          <mxGeometry height="45" width="125" x="450" y="480" as="geometry" />
         </mxCell>
-        <mxCell id="e_kq_score" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="kq" target="kq_score">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_kq_score" edge="1" parent="1" source="kq" style="endArrow=none;html=1;rounded=0;" target="kq_score">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kq_grade" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Xếp loại" vertex="1">
-          <mxGeometry x="590" y="480" width="125" height="45" as="geometry"/>
+          <mxGeometry height="45" width="125" x="590" y="480" as="geometry" />
         </mxCell>
-        <mxCell id="e_kq_grade" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="kq" target="kq_grade">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_kq_grade" edge="1" parent="1" source="kq" style="endArrow=none;html=1;rounded=0;" target="kq_grade">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rel_sv_kq" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="CÓ KẾT QUẢ" vertex="1">
-          <mxGeometry x="330" y="365" width="110" height="50" as="geometry"/>
+          <mxGeometry height="50" width="110" x="310" y="525" as="geometry" />
         </mxCell>
-        <mxCell id="e_sv_relkq" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="sv" target="rel_sv_kq">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_sv_relkq" edge="1" parent="1" source="sv" style="endArrow=none;html=1;rounded=0;" target="rel_sv_kq">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_relkq_kq" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="rel_sv_kq" target="kq">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="card_sv1" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" value="1" vertex="1">
-          <mxGeometry x="255" y="340" width="30" height="25" as="geometry"/>
-        </mxCell>
-        <mxCell id="card_kqn" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" value="N" vertex="1">
-          <mxGeometry x="455" y="340" width="30" height="25" as="geometry"/>
+        <mxCell id="e_relkq_kq" edge="1" parent="1" source="rel_sv_kq" style="endArrow=none;html=1;rounded=0;" target="kq">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rel_kq_lhp" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="THUỘC LỚP" vertex="1">
-          <mxGeometry x="740" y="365" width="110" height="50" as="geometry"/>
+          <mxGeometry height="50" width="110" x="740" y="365" as="geometry" />
         </mxCell>
-        <mxCell id="e_kq_rellhp" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="kq" target="rel_kq_lhp">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_kq_rellhp" edge="1" parent="1" source="kq" style="endArrow=none;html=1;rounded=0;" target="rel_kq_lhp">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_rellhp_lhp" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="rel_kq_lhp" target="lhp">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="card_kqn2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" value="N" vertex="1">
-          <mxGeometry x="690" y="340" width="30" height="25" as="geometry"/>
-        </mxCell>
-        <mxCell id="card_lhp1" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" value="1" vertex="1">
-          <mxGeometry x="865" y="340" width="30" height="25" as="geometry"/>
+        <mxCell id="e_rellhp_lhp" edge="1" parent="1" source="rel_kq_lhp" style="endArrow=none;html=1;rounded=0;" target="lhp">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rel_kh_lhp" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="CÓ LỚP" vertex="1">
-          <mxGeometry x="940" y="210" width="110" height="50" as="geometry"/>
+          <mxGeometry height="50" width="110" x="940" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="e_kh_relclass" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="kh" target="rel_kh_lhp">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_kh_relclass" edge="1" parent="1" source="kh" style="endArrow=none;html=1;rounded=0;" target="rel_kh_lhp">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_relclass_lhp" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="rel_kh_lhp" target="lhp">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="card_kh1" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" value="1" vertex="1">
-          <mxGeometry x="905" y="170" width="30" height="25" as="geometry"/>
-        </mxCell>
-        <mxCell id="card_lhpn" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" value="N" vertex="1">
-          <mxGeometry x="1030" y="300" width="30" height="25" as="geometry"/>
+        <mxCell id="e_relclass_lhp" edge="1" parent="1" source="rel_kh_lhp" style="endArrow=none;html=1;rounded=0;" target="lhp">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rel_gv_lhp" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="GIẢNG DẠY" vertex="1">
-          <mxGeometry x="940" y="520" width="110" height="50" as="geometry"/>
+          <mxGeometry height="50" width="110" x="940" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="e_gv_relclass" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="gv" target="rel_gv_lhp">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_gv_relclass" edge="1" parent="1" source="gv" style="endArrow=none;html=1;rounded=0;" target="rel_gv_lhp">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_relclass2_lhp" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="rel_gv_lhp" target="lhp">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="card_gv1" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" value="1" vertex="1">
-          <mxGeometry x="905" y="600" width="30" height="25" as="geometry"/>
-        </mxCell>
-        <mxCell id="card_lhpn2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" value="N" vertex="1">
-          <mxGeometry x="1030" y="450" width="30" height="25" as="geometry"/>
+        <mxCell id="e_relclass2_lhp" edge="1" parent="1" source="rel_gv_lhp" style="endArrow=none;html=1;rounded=0;" target="lhp">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rel_kh_gv" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="PHỤ TRÁCH" vertex="1">
-          <mxGeometry x="750" y="510" width="110" height="50" as="geometry"/>
+          <mxGeometry height="50" width="110" x="1290" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="e_kh_relgv" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="kh" target="rel_kh_gv">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e_kh_relgv" edge="1" parent="1" source="kh" style="endArrow=none;html=1;rounded=0;" target="rel_kh_gv">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_relgv_gv" parent="1" style="endArrow=none;html=1;rounded=0;" edge="1" source="rel_kh_gv" target="gv">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="card_khn" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" value="N" vertex="1">
-          <mxGeometry x="790" y="450" width="30" height="25" as="geometry"/>
-        </mxCell>
-        <mxCell id="card_gvn" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" value="N" vertex="1">
-          <mxGeometry x="860" y="585" width="30" height="25" as="geometry"/>
-        </mxCell>
-        <mxCell id="note" parent="1" style="shape=note;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="Quan hệ Sinh viên – Lớp học phần là M:N và được giải quyết thông qua thực thể KẾT QUẢ HỌC TẬP." vertex="1">
-          <mxGeometry x="380" y="600" width="390" height="60" as="geometry"/>
+        <mxCell id="e_relgv_gv" edge="1" parent="1" source="rel_kh_gv" style="endArrow=none;html=1;rounded=0;" target="gv">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
